@@ -1,0 +1,69 @@
+{
+  "name": "useragent-wizard",
+  "version": "0.1.0",
+  "description": "A TypeScript library for generating random user agents for various web browsers and platforms.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "release": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "postinstall": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurchhapra/random-useragent-generator.git"
+  },
+  "keywords": [
+    "user-agent",
+    "random",
+    "generator",
+    "useragent",
+    "useragent-generator",
+    "useragent-random",
+    "useragent-generator-random",
+    "useragent-wizard",
+    "browser",
+    "web",
+    "development",
+    "testing",
+    "automation",
+    "typescript",
+    "npm",
+    "package",
+    "faker",
+    "tool",
+    "utility",
+    "mock",
+    "simulate",
+    "http",
+    "header",
+    "agent-string",
+    "frontend",
+    "backend",
+    "compatibility",
+    "cross-browser",
+    "compatibility-testing"
+  ],
+  "author": {
+    "name": "Mayur Chhapra",
+    "email": "mayurchhapra@gmail.com",
+    "url": "https://www.linkedin.com/in/mayurchhapra/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurchhapra/random-useragent-generator/issues"
+  },
+  "homepage": "https://github.com/mayurchhapra/random-useragent-generator#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": ["lib"],
+  "publishConfig": {
+    "access": "public"
+  }
+}
