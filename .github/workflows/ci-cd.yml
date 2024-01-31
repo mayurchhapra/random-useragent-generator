@@ -20,10 +20,13 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Install TypeScript and tsup Globally
+        run: npm install -g typescript tsup
 
       - name: Build
-        run: npm ci && npm run build
+        run: npm run build
 
       - name: Publish to npm
         run: npm publish --access public
