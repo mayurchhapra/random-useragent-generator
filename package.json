@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsup"
+    "build": "npx tsup"
   },
   "repository": {
     "type": "git",
